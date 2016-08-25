@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet/less" type="text/css" href="styles.less"></link>
+		<script>
+		  less = {
+			env: "development",
+			async: false,
+			fileAsync: false,
+			poll: 1000,
+			functions: {},
+			dumpLineNumbers: "comments",
+			relativeUrls: false,
+			rootpath: ":/a.com/"
+		  };
+		</script>
+		<script src="less.js"></script>
+	</head>
+	<body>
+		<div>cell</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="cell-primary">标题文字</div>			
+				<div class="cell-ft">说明文字</div>			
+			</div>
+		</div>
+		
+		<div>带icon</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="cell-icon">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"/>
+				</div>
+				<div class="cell-primary">
+				标题文字
+				</div>
+				<div class="cell-ft">
+				说明文字
+				</div>	
+			</div>	
+		</div>
+		
+		<div>cells</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="cell-icon">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"/>
+				</div>
+				<div class="cell-primary">
+				标题文字
+				</div>
+				<div class="cell-ft">
+				说明文字
+				</div>	
+			</div>
+			<div class="cell">
+				<div class="cell-icon">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"/>
+				</div>
+				<div class="cell-primary">
+				标题文字
+				</div>
+				<div class="cell-ft">
+				说明文字
+				</div>	
+			</div>
+		</div>
+		<div>可以跳转的cell</div>
+		<div class="cells">
+			<a href="javascript:;" class="cell cell-access">
+				<div class="cell-primary">cell standard</div>
+				<div class="cell-ft"></div>
+			</a>
+		</div>
+		
+		<div>这是复选框</div>
+		<div class="cells cells-checkbox">
+			<div class="cell">
+				<div class="head">
+				<label>
+					<input type="checkbox" class="check"/>
+					<i class="icon-checked"></i>
+				</label>
+				</div>
+				<div class="cell-primary">
+				这是一个简单的标题
+				</div>
+				<div class="cell-ft">哈酒阿卡丽京东方</div>
+			</div>
+			<div class="cell">
+				<div class="head">
+					<label>
+						<input type="checkbox" class="check"/>
+						<i class="icon-checked"></i>
+					</label>
+				</div>
+				<div class="cell-primary">
+				这是一个简单的标题
+				</div>
+				<div class="cell-ft">哈酒阿卡丽京东方</div>			
+			</div>
+		</div>
+		<div>这是一个表单</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="head">
+				<label>QQ</label>
+				</div>
+				<div class="cell-primary">
+				<input class="cell-input" type="number" pattern="[0~9]*" placeholder="请输入QQ号"/>
+				</div>
+			</div>
+		</div>
+		
+		<div>图片</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="cell-primary">
+					<div class="fileupload-form">
+						<div class="cell">
+							<div class="cell-primary">图片上传</div>
+							<div class="cell-ft">0/2</div>
+						</div>
+						<div>
+							<ul class="filesuploaded">
+								<li class="fileuploaded" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">1</li>
+								<li class="fileuploaded" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">2</li>
+								<li class="fileuploaded" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">3</li>
+								<li class="fileuploaded" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">4</li>
+								<li class="fileuploaded" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">5</li>
+							</ul>
+							<div class="fileupload">
+								<input class="input-file" type="file"/>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div>textarea</div>
+		<div class="cells">
+			<div class="cell">
+				<div class="cell-primary">
+					<textarea class="text-area" row="3" placeholder="请输入你想输入的内容"></textarea>
+				</div>
+			</div>
+		</div>
+		
+		<h2>选择输入框</h2>
+		<div class="cells">
+			<div class="cell"></div>
+		</div>
+	</body>
+
+</html>
